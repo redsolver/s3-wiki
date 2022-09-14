@@ -1,0 +1,623 @@
+[
+    {
+        "name": "skynetfree.net",
+        "url": "https://skynetfree.net/",
+        "plans": [
+            {
+                "name": "Free",
+                "baseCost": {
+                    "value": 0
+                },
+                "storage": {
+                    "included": 107374182400
+                },
+                "trafficAll": {
+                    "included": 107374182400
+                }
+            }
+        ],
+        "protocols": [
+            "skynet"
+        ]
+    },
+    {
+        "name": "skynetpro.net",
+        "url": "https://skynetpro.net/",
+        "plans": [
+            {
+                "name": "Plus",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 5
+                },
+                "storage": {
+                    "included": 1099511627776
+                },
+                "trafficAll": {
+                    "included": 1099511627776
+                }
+            },
+            {
+                "name": "Pro",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 20
+                },
+                "storage": {
+                    "included": 4398046511104
+                },
+                "trafficAll": {
+                    "included": 4398046511104
+                }
+            },
+            {
+                "name": "Extreme",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 80
+                },
+                "storage": {
+                    "included": 21990232555520
+                },
+                "trafficAll": {
+                    "included": 21990232555520
+                }
+            }
+        ],
+        "protocols": [
+            "skynet"
+        ]
+    },
+    {
+        "name": "web3portal.com",
+        "url": "https://web3portal.com/",
+        "plans": [
+            {
+                "name": "Free",
+                "baseCost": {
+                    "value": 0
+                },
+                "storage": {
+                    "included": 10737418240
+                },
+                "trafficAll": {
+                    "included": 10737418240
+                }
+            },
+            {
+                "name": "One",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 10
+                },
+                "storage": {
+                    "included": 1099511627776
+                },
+                "trafficAll": {
+                    "included": 1099511627776
+                }
+            },
+            {
+                "name": "Four",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 40
+                },
+                "storage": {
+                    "included": 4398046511104
+                },
+                "trafficAll": {
+                    "included": 4398046511104
+                }
+            },
+            {
+                "name": "Twenty",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 200
+                },
+                "storage": {
+                    "included": 21990232555520
+                },
+                "trafficAll": {
+                    "included": 21990232555520
+                }
+            }
+        ],
+        "protocols": [
+            "skynet"
+        ]
+    },
+    {
+        "name": "Hetzner Storage Box",
+        "url": "https://www.hetzner.com/storage/storage-box",
+        "plans": [
+            {
+                "name": "BX11",
+                "baseCost": {
+                    "currency": "EUR",
+                    "value": 3.81
+                },
+                "storage": {
+                    "included": 1000000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "BX21",
+                "baseCost": {
+                    "currency": "EUR",
+                    "value": 12.97
+                },
+                "storage": {
+                    "included": 5000000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "BX31",
+                "baseCost": {
+                    "currency": "EUR",
+                    "value": 24.75
+                },
+                "storage": {
+                    "included": 10000000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "BX41",
+                "baseCost": {
+                    "currency": "EUR",
+                    "value": 48.31
+                },
+                "storage": {
+                    "included": 20000000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            }
+        ],
+        "protocols": [
+            "ftp",
+            "ftps",
+            "sftp",
+            "scp",
+            "samba",
+            "borg",
+            "rsync",
+            "webdav"
+        ]
+    },
+    {
+        "name": "TransIP STACK",
+        "url": "https://www.transip.nl/stack/",
+        "plans": [
+            {
+                "name": "2.000 GB",
+                "baseCost": {
+                    "currency": "EUR",
+                    "value": 10
+                },
+                "storage": {
+                    "included": 2000000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "1.000 GB",
+                "baseCost": {
+                    "currency": "EUR",
+                    "value": 5
+                },
+                "storage": {
+                    "included": 1000000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "250 GB",
+                "baseCost": {
+                    "currency": "EUR",
+                    "value": 2.50
+                },
+                "storage": {
+                    "included": 250000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            }
+        ],
+        "protocols": [
+            "sftp",
+            "webdav"
+        ]
+    },
+    {
+        "name": "BorgBase",
+        "url": "https://www.borgbase.com/",
+        "plans": [
+            {
+                "name": "Small",
+                "baseCost": {
+                    "interval": 31557600,
+                    "currency": "USD",
+                    "value": 24,
+                    "vat": false
+                },
+                "storage": {
+                    "included": 100000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.01,
+                            "currency": "USD",
+                            "interval": 2629800,
+                            "vat": false
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "Medium",
+                "baseCost": {
+                    "interval": 31557600,
+                    "currency": "USD",
+                    "value": 80,
+                    "vat": false
+                },
+                "storage": {
+                    "included": 1000000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.007,
+                            "currency": "USD",
+                            "interval": 2629800,
+                            "vat": false
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "Large",
+                "baseCost": [
+                    {
+                        "currency": "USD",
+                        "value": 15,
+                        "vat": false
+                    },
+                    {
+                        "interval": 31557600,
+                        "currency": "USD",
+                        "value": 150,
+                        "vat": false
+                    }
+                ],
+                "storage": {
+                    "included": 2000000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.005,
+                            "currency": "USD",
+                            "interval": 2629800,
+                            "vat": false
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            }
+        ],
+        "protocols": [
+            "borg"
+        ]
+    },
+    {
+        "name": "icedrive",
+        "url": "https://icedrive.net/plans",
+        "plans": [
+            {
+                "name": "LITE",
+                "baseCost": [
+                    {
+                        "interval": 31557600,
+                        "currency": "EUR",
+                        "value": 21.99
+                    },
+                    {
+                        "interval": 31557600,
+                        "currency": "EUR",
+                        "value": 21.99
+                    }
+                ],
+                "storage": {
+                    "included": 150000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "PRO",
+                "baseCost": [
+                    {
+                        "currency": "EUR",
+                        "value": 4.99
+                    },
+                    {
+                        "interval": 31557600,
+                        "currency": "EUR",
+                        "value": 49.99
+                    }
+                ],
+                "storage": {
+                    "included": 1000000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "PRO+",
+                "baseCost": [
+                    {
+                        "currency": "EUR",
+                        "value": 17.99
+                    },
+                    {
+                        "interval": 31557600,
+                        "currency": "EUR",
+                        "value": 179.99
+                    }
+                ],
+                "storage": {
+                    "included": 5000000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "PRO III (LIFETIME)",
+                "baseCost": [
+                    {
+                        "interval": -1,
+                        "currency": "EUR",
+                        "value": 449
+                    }
+                ],
+                "storage": {
+                    "included": 3000000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "PRO X (LIFETIME)",
+                "baseCost": [
+                    {
+                        "interval": -1,
+                        "currency": "EUR",
+                        "value": 899
+                    }
+                ],
+                "storage": {
+                    "included": 10000000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            }
+        ],
+        "protocols": [
+            "webdav"
+        ]
+    },
+    {
+        "name": "Filebase",
+        "url": "https://filebase.com/",
+        "plans": [
+            {
+                "name": "Free",
+                "baseCost": {
+                    "value": 0
+                },
+                "storage": {
+                    "included": 5000000000
+                },
+                "trafficAll": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "Subscription",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 5.99
+                },
+                "storage": {
+                    "included": 1000000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.0059,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficEgress": {
+                    "included": 1000000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.0059,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficIngress": {
+                    "included": -1
+                }
+            }
+        ],
+        "protocols": [
+            "s3"
+        ]
+    },
+    {
+        "name": "Backblaze B2",
+        "url": "https://www.backblaze.com/b2/cloud-storage-pricing.html",
+        "plans": [
+            {
+                "name": "Pay-as-you-go",
+                "baseCost": {
+                    "value": 0
+                },
+                "storage": {
+                    "included": 10000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.005,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficEgress": {
+                    "included": 1000000000,
+                    "includedInterval": 86400,
+                    "more": {
+                        "cost": {
+                            "value": 0.01,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficIngress": {
+                    "included": -1
+                }
+            }
+        ],
+        "protocols": [
+            "s3"
+        ]
+    },
+    {
+        "name": "Wasabi",
+        "url": "https://www.backblaze.com/b2/cloud-storage-pricing.html",
+        "plans": [
+            {
+                "name": "Pay As You Go",
+                "baseCost": {
+                    "value": 0
+                },
+                "storage": {
+                    "included": 0,
+                    "more": {
+                        "cost": {
+                            "value": 0.0059,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficEgress": {
+                    "included": 0,
+                    "includedStorageMultiplier": 1
+                },
+                "trafficIngress": {
+                    "included": -1
+                }
+            }
+        ],
+        "protocols": [
+            "s3"
+        ]
+    },
+    {
+        "name": "IDrive e2",
+        "url": "https://www.idrive.com/e2/",
+        "plans": [
+            {
+                "name": "Pay As You Go",
+                "baseCost": {
+                    "value": 0
+                },
+                "storage": {
+                    "included": 10000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.004,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficEgress": {
+                    "included": 0,
+                    "includedStorageMultiplier": 3
+                },
+                "trafficIngress": {
+                    "included": -1
+                }
+            }
+        ],
+        "protocols": [
+            "s3"
+        ]
+    },
+    {
+        "name": "Cloudflare R2",
+        "url": "https://www.cloudflare.com/products/r2/",
+        "plans": [
+            {
+                "name": "Pay As You Go",
+                "baseCost": {
+                    "value": 0
+                },
+                "storage": {
+                    "included": 10000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.015,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficEgress": {
+                    "included": -1
+                },
+                "trafficIngress": {
+                    "included": -1
+                }
+            }
+        ],
+        "protocols": [
+            "s3"
+        ]
+    }
+]
