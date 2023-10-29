@@ -112,6 +112,7 @@ void updateChipsHtml() {
 
   for (final p in [
     // 's3',
+    'skynet',
     'webdav',
     // more
     'borg',
