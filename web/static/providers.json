@@ -326,26 +326,86 @@
                 }
             },
             {
-                "name": "Subscription",
+                "name": "Starter",
                 "baseCost": {
                     "currency": "USD",
-                    "value": 5.99
+                    "value": 20
                 },
                 "storage": {
-                    "included": 1000000000000,
+                    "included": 200000000000,
                     "more": {
                         "cost": {
-                            "value": 0.0059,
+                            "value": 0.15,
                             "currency": "USD"
                         },
                         "per": 1000000000
                     }
                 },
                 "trafficEgress": {
+                    "included": 400000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.015,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficIngress": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "Pro",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 100
+                },
+                "storage": {
                     "included": 1000000000000,
                     "more": {
                         "cost": {
-                            "value": 0.0059,
+                            "value": 0.12,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficEgress": {
+                    "included": 2000000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.015,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficIngress": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "Business",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 500
+                },
+                "storage": {
+                    "included": 5000000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.10,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficEgress": {
+                    "included": 10000000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.015,
                             "currency": "USD"
                         },
                         "per": 1000000000
@@ -357,7 +417,8 @@
             }
         ],
         "protocols": [
-            "s3"
+            "s3",
+            "ipfs"
         ]
     },
     {
