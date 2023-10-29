@@ -373,15 +373,15 @@
                     "included": 10000000000,
                     "more": {
                         "cost": {
-                            "value": 0.005,
+                            "value": 0.006,
                             "currency": "USD"
                         },
                         "per": 1000000000
                     }
                 },
                 "trafficEgress": {
-                    "included": 1000000000,
-                    "includedInterval": 86400,
+                    "included": 0,
+                    "includedStorageMultiplier": 3,
                     "more": {
                         "cost": {
                             "value": 0.01,
