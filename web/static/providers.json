@@ -1,4 +1,133 @@
-[    
+[
+    {
+        "name": "skynetfree.net",
+        "url": "https://skynetfree.net/",
+        "plans": [
+            {
+                "name": "Free",
+                "baseCost": {
+                    "value": 0
+                },
+                "storage": {
+                    "included": 107374182400
+                },
+                "trafficAll": {
+                    "included": 107374182400
+                }
+            }
+        ],
+        "protocols": [
+            "skynet"
+        ]
+    },
+    {
+        "name": "skynetpro.net",
+        "url": "https://skynetpro.net/",
+        "plans": [
+            {
+                "name": "Plus",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 5
+                },
+                "storage": {
+                    "included": 1099511627776
+                },
+                "trafficAll": {
+                    "included": 1099511627776
+                }
+            },
+            {
+                "name": "Pro",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 20
+                },
+                "storage": {
+                    "included": 4398046511104
+                },
+                "trafficAll": {
+                    "included": 4398046511104
+                }
+            },
+            {
+                "name": "Extreme",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 80
+                },
+                "storage": {
+                    "included": 21990232555520
+                },
+                "trafficAll": {
+                    "included": 21990232555520
+                }
+            }
+        ],
+        "protocols": [
+            "skynet"
+        ]
+    },
+    {
+        "name": "web3portal.com",
+        "url": "https://web3portal.com/",
+        "plans": [
+            {
+                "name": "Free",
+                "baseCost": {
+                    "value": 0
+                },
+                "storage": {
+                    "included": 10737418240
+                },
+                "trafficAll": {
+                    "included": 10737418240
+                }
+            },
+            {
+                "name": "One",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 10
+                },
+                "storage": {
+                    "included": 1099511627776
+                },
+                "trafficAll": {
+                    "included": 1099511627776
+                }
+            },
+            {
+                "name": "Four",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 40
+                },
+                "storage": {
+                    "included": 4398046511104
+                },
+                "trafficAll": {
+                    "included": 4398046511104
+                }
+            },
+            {
+                "name": "Twenty",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 200
+                },
+                "storage": {
+                    "included": 21990232555520
+                },
+                "trafficAll": {
+                    "included": 21990232555520
+                }
+            }
+        ],
+        "protocols": [
+            "skynet"
+        ]
+    },
     {
         "name": "Hetzner Storage Box",
         "url": "https://www.hetzner.com/storage/storage-box",
@@ -307,6 +436,60 @@
         ]
     },
     {
+        "name": "Filebase",
+        "url": "https://filebase.com/",
+        "plans": [
+            {
+                "name": "Free",
+                "baseCost": {
+                    "value": 0
+                },
+                "storage": {
+                    "included": 5000000000
+                },
+                "trafficEgress": {
+                    "included": 5000000000
+                },
+                "trafficIngress": {
+                    "included": -1
+                }
+            },
+            {
+                "name": "Subscription",
+                "baseCost": {
+                    "currency": "USD",
+                    "value": 5.99
+                },
+                "storage": {
+                    "included": 1000000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.0059,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficEgress": {
+                    "included": 1000000000000,
+                    "more": {
+                        "cost": {
+                            "value": 0.0059,
+                            "currency": "USD"
+                        },
+                        "per": 1000000000
+                    }
+                },
+                "trafficIngress": {
+                    "included": -1
+                }
+            }
+        ],
+        "protocols": [
+            "s3"
+        ]
+    },
+    {
         "name": "Backblaze B2",
         "url": "https://www.backblaze.com/b2/cloud-storage-pricing.html",
         "plans": [
@@ -396,198 +579,6 @@
                         },
                         "per": 1000000000
                     }
-                },
-                "trafficEgress": {
-                    "included": 0,
-                    "includedStorageMultiplier": 3,
-                    "more": {
-                        "cost": {
-                            "value": 0.01,
-                            "currency": "USD"
-                        },
-                        "per": 1000000000
-                    }
-                },
-                "trafficIngress": {
-                    "included": -1
-                }
-            },
-            {
-                "name": "2TB",
-                "baseCost": {
-                    "value": 3.33,
-                    "currency": "USD"
-                },
-                "storage": {
-                    "included": 1000000000000
-                },
-                "trafficEgress": {
-                    "included": 0,
-                    "includedStorageMultiplier": 3,
-                    "more": {
-                        "cost": {
-                            "value": 0.01,
-                            "currency": "USD"
-                        },
-                        "per": 1000000000
-                    }
-                },
-                "trafficIngress": {
-                    "included": -1
-                }
-            },
-            {
-                "name": "5TB",
-                "baseCost": {
-                    "value": 8.33,
-                    "currency": "USD"
-                },
-                "storage": {
-                    "included": 1000000000000
-                },
-                "trafficEgress": {
-                    "included": 0,
-                    "includedStorageMultiplier": 3,
-                    "more": {
-                        "cost": {
-                            "value": 0.01,
-                            "currency": "USD"
-                        },
-                        "per": 1000000000
-                    }
-                },
-                "trafficIngress": {
-                    "included": -1
-                }
-            },
-            {
-                "name": "10TB",
-                "baseCost": {
-                    "value": 16.67,
-                    "currency": "USD"
-                },
-                "storage": {
-                    "included": 1000000000000
-                },
-                "trafficEgress": {
-                    "included": 0,
-                    "includedStorageMultiplier": 3,
-                    "more": {
-                        "cost": {
-                            "value": 0.01,
-                            "currency": "USD"
-                        },
-                        "per": 1000000000
-                    }
-                },
-                "trafficIngress": {
-                    "included": -1
-                }
-            },
-            {
-                "name": "20TB",
-                "baseCost": {
-                    "value": 33.33,
-                    "currency": "USD"
-                },
-                "storage": {
-                    "included": 1000000000000
-                },
-                "trafficEgress": {
-                    "included": 0,
-                    "includedStorageMultiplier": 3,
-                    "more": {
-                        "cost": {
-                            "value": 0.01,
-                            "currency": "USD"
-                        },
-                        "per": 1000000000
-                    }
-                },
-                "trafficIngress": {
-                    "included": -1
-                }
-            },
-            {
-                "name": "30TB",
-                "baseCost": {
-                    "value": 50,
-                    "currency": "USD"
-                },
-                "storage": {
-                    "included": 1000000000000
-                },
-                "trafficEgress": {
-                    "included": 0,
-                    "includedStorageMultiplier": 3,
-                    "more": {
-                        "cost": {
-                            "value": 0.01,
-                            "currency": "USD"
-                        },
-                        "per": 1000000000
-                    }
-                },
-                "trafficIngress": {
-                    "included": -1
-                }
-            },
-            {
-                "name": "50TB",
-                "baseCost": {
-                    "value": 83.33,
-                    "currency": "USD"
-                },
-                "storage": {
-                    "included": 1000000000000
-                },
-                "trafficEgress": {
-                    "included": 0,
-                    "includedStorageMultiplier": 3,
-                    "more": {
-                        "cost": {
-                            "value": 0.01,
-                            "currency": "USD"
-                        },
-                        "per": 1000000000
-                    }
-                },
-                "trafficIngress": {
-                    "included": -1
-                }
-            },
-            {
-                "name": "500TB",
-                "baseCost": {
-                    "value": 833.33,
-                    "currency": "USD"
-                },
-                "storage": {
-                    "included": 1000000000000
-                },
-                "trafficEgress": {
-                    "included": 0,
-                    "includedStorageMultiplier": 3,
-                    "more": {
-                        "cost": {
-                            "value": 0.01,
-                            "currency": "USD"
-                        },
-                        "per": 1000000000
-                    }
-                },
-                "trafficIngress": {
-                    "included": -1
-                }
-            },
-            {
-                "name": "1PB",
-                "baseCost": {
-                    "value": 1666.67,
-                    "currency": "USD"
-                },
-                "storage": {
-                    "included": 1000000000000
                 },
                 "trafficEgress": {
                     "included": 0,
